@@ -13,11 +13,11 @@ void bringup_init(void)
 void tim1_loop(void)
 {
 	opt4060_loop();
-	if (i++ > 10)
-	{
-		i = 0;
+//	if (i++ > 10)
+//	{
+//		i = 0;
 		data_process_loop();
-	}
+//	}
 }
 
 void main_loop(void)
